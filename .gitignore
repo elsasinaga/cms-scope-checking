@@ -1,0 +1,87 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+*.swp
+.idea
+weights_file
+models/50features_1minwords_10context
+models/100features_1minwords_10context
+
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment file
+.env
+
+# Model files (biasanya besar)
+*.h5
+*.pt
+*.pth
+*.pkl
+
+# Dataset
+dataset/
+data/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Laravel (kalau ada)
+vendor/
+node_modules/
+
+# model hasil training
+*.keras
+*.h5
+*.pt
+*.pkl
+
+# folder model
+models/
+
+# file besar lain
+*.bin
+*.vec
