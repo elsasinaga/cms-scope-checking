@@ -56,7 +56,7 @@ def clean_str(string):
 
 def load_data_and_labels(filename="Dataset_Final.csv"):
     # Membaca CSV gabungan
-    df = pd.read_csv(filename)
+    df = pd.read_csv(filename, encoding='latin-1')
     
     # Menggabungkan Title dan Abstract (Fitur Utama)
     df['text'] = df['Item Title'].astype(str) + " " + df['Abstract'].astype(str)
